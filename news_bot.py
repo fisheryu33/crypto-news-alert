@@ -120,4 +120,3 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     print(f"🌐 啟動 Flask Web 伺服器，port={port}", flush=True)
     app.run(host="0.0.0.0", port=port)
-
